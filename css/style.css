@@ -30,9 +30,29 @@ body {
 }
 
 .secondary-color {
-    #626262
+    color:#626262;
 }
 
 .light-color {
     color: #fcf5eb;
+}
+
+/* NAVBAR */
+
+#navbar .navbar-nav {
+    flex-direction: row;
+    justify-content: end;
+}
+
+#navbar .navbar-nav li {
+    margin-left: 1em;
+}
+
+#navbar a,
+#navbar button {
+    color: #fff;
+}
+
+#navbar li {
+    position: relative;
 }
